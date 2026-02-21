@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Michelle Ruiz | Logística & Gestión</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #0b0f19;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(180deg, #0b0f19, #111a2e);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    h2 {
+      border-left: 4px solid #4da3ff;
+      padding-left: 10px;
+      margin-top: 50px;
+    }
+
+    .subtitle {
+      color: #9bbcff;
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: #121a2c;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    }
+
+    .tag {
+      display: inline-block;
+      background: #1f2b45;
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 5px;
+      font-size: 0.8rem;
+      color: #9bbcff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      color: #9bbcff;
+      font-size: 0.9rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: 1px solid #4da3ff;
+      color: #4da3ff;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #4da3ff;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>MICHELLE RUIZ</h1>
+  <p class="subtitle">Logística | Gestión Administrativa | Optimización Operativa</p>
+  <a class="btn" href="#portafolio">Ver Portafolio</a>
+</header>
+
+<div class="container">
+
+  <section>
+    <h2>Perfil Profesional</h2>
+    <div class="card">
+      <p>
+        Profesional enfocada en la organización, control y mejora de procesos
+        administrativos y logísticos. Experiencia en coordinación de servicios,
+        optimización de recursos y gestión operativa en entorno industrial.
+      </p>
+      <p>
+        Especialidad en crear sistemas prácticos que transforman tareas complejas
+        en procesos claros, medibles y eficientes.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Habilidades Clave</h2>
+    <div class="card">
+      <span class="tag">Logística Operativa</span>
+      <span class="tag">Gestión Administrativa</span>
+      <span class="tag">Control de Servicios</span>
+      <span class="tag">Optimización de Procesos</span>
+      <span class="tag">Análisis de Costos</span>
+      <span class="tag">Organización Documental</span>
+      <span class="tag">Mejora Continua</span>
+    </div>
+  </section>
+
+  <section id="portafolio">
+    <h2>Portafolio de Soluciones</h2>
+
+    <div class="card">
+      <h3>Sistema de Control de Servicios de Cafetería</h3>
+      <p>
+        Desarrollo de formato estructurado para registro, autorización y seguimiento
+        de solicitudes de servicio. Mejora en trazabilidad, control de recursos y
+        tiempos de respuesta.
+      </p>
+      <span class="tag">Gestión</span>
+      <span class="tag">Control Operativo</span>
+      <span class="tag">Optimización</span>
+    </div>
+
+    <div class="card">
+      <h3>Seguimiento Administrativo de Proveedores</h3>
+      <p>
+        Organización de información, comparativos de costos y control documental
+        para toma de decisiones estratégicas.
+      </p>
+      <span class="tag">Análisis</span>
+      <span class="tag">Control Financiero</span>
+      <span class="tag">Eficiencia</span>
+    </div>
+
+    <div class="card">
+      <h3>Optimización de Procesos Internos</h3>
+      <p>
+        Implementación de herramientas de control y seguimiento que mejoran la
+        coordinación operativa y la comunicación organizacional.
+      </p>
+      <span class="tag">Mejora Continua</span>
+      <span class="tag">Organización</span>
+      <span class="tag">Gestión Operativa</span>
+    </div>
+
+  </section>
+
+  <section>
+    <h2>Contacto Profesional</h2>
+    <div class="card">
+      <p>Email: michelle@email.com</p>
+      <p>GitHub: github.com/miclog</p>
+      <p>Ubicación: México</p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  Michelle Ruiz — Sistema de Gestión y Logística
+</footer>
+
+</body>
+</html>
